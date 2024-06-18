@@ -1,0 +1,13 @@
+C:\Users\ipas.labpcs\Desktop\AdLab-Referenceless-TMatrix\Referenceless-TMatrix\Referenceless-TMatrix\bin\Debug\Referenceless-TMatrix.exe.config
+C:\Users\ipas.labpcs\Desktop\AdLab-Referenceless-TMatrix\Referenceless-TMatrix\Referenceless-TMatrix\bin\Debug\Referenceless-TMatrix.exe
+C:\Users\ipas.labpcs\Desktop\AdLab-Referenceless-TMatrix\Referenceless-TMatrix\Referenceless-TMatrix\bin\Debug\Referenceless-TMatrix.pdb
+C:\Users\ipas.labpcs\Desktop\AdLab-Referenceless-TMatrix\Referenceless-TMatrix\Referenceless-TMatrix\bin\Debug\Referenceless-TMatrix.xml
+C:\Users\ipas.labpcs\Desktop\AdLab-Referenceless-TMatrix\Referenceless-TMatrix\Referenceless-TMatrix\obj\Debug\Referenceless-TMatrix.vbproj.AssemblyReference.cache
+C:\Users\ipas.labpcs\Desktop\AdLab-Referenceless-TMatrix\Referenceless-TMatrix\Referenceless-TMatrix\obj\Debug\Referenceless-TMatrix.vbproj.SuggestedBindingRedirects.cache
+C:\Users\ipas.labpcs\Desktop\AdLab-Referenceless-TMatrix\Referenceless-TMatrix\Referenceless-TMatrix\obj\Debug\Referenceless_TMatrix.Resources.resources
+C:\Users\ipas.labpcs\Desktop\AdLab-Referenceless-TMatrix\Referenceless-TMatrix\Referenceless-TMatrix\obj\Debug\Referenceless-TMatrix.vbproj.GenerateResource.cache
+C:\Users\ipas.labpcs\Desktop\AdLab-Referenceless-TMatrix\Referenceless-TMatrix\Referenceless-TMatrix\obj\Debug\Referenceless-TMatrix.vbproj.CoreCompileInputs.cache
+C:\Users\ipas.labpcs\Desktop\AdLab-Referenceless-TMatrix\Referenceless-TMatrix\Referenceless-TMatrix\obj\Debug\Referenceless-TMatrix.exe
+C:\Users\ipas.labpcs\Desktop\AdLab-Referenceless-TMatrix\Referenceless-TMatrix\Referenceless-TMatrix\obj\Debug\Referenceless-TMatrix.xml
+C:\Users\ipas.labpcs\Desktop\AdLab-Referenceless-TMatrix\Referenceless-TMatrix\Referenceless-TMatrix\obj\Debug\Referenceless-TMatrix.pdb
+C:\Users\ipas.labpcs\Desktop\AdLab-Referenceless-TMatrix\Referenceless-TMatrix\Referenceless-TMatrix\obj\Debug\Referenceless_TMatrix.frmMain.resources
