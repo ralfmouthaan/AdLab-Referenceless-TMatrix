@@ -18,3 +18,4 @@ C:\Users\ipas.labpcs\Desktop\AdLab-Referenceless-TMatrix\Referenceless-TMatrix\R
 C:\Users\ipas.labpcs\Desktop\AdLab-Referenceless-TMatrix\Referenceless-TMatrix\Referenceless-TMatrix\bin\x64\Debug\System.Diagnostics.DiagnosticSource.dll
 C:\Users\ipas.labpcs\Desktop\AdLab-Referenceless-TMatrix\Referenceless-TMatrix\Referenceless-TMatrix\bin\x64\Debug\System.Diagnostics.DiagnosticSource.xml
 C:\Users\ipas.labpcs\Desktop\AdLab-Referenceless-TMatrix\Referenceless-TMatrix\Referenceless-TMatrix\obj\x64\Debug\Referenceless-TMatrix.vbproj.CopyComplete
+C:\Users\ipas.labpcs\Desktop\AdLab-Referenceless-TMatrix\Referenceless-TMatrix\Referenceless-TMatrix\bin\x64\Debug\SpinVideoNETd_v140.dll

@@ -11,11 +11,12 @@
     <AssemblyName>Referenceless-TMatrix</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -79,8 +80,12 @@
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
-    <Reference Include="SpinnakerNETd_v140">
-      <HintPath>..\..\..\..\..\..\Libraries\Spinnaker\bin64\vs2022\SpinnakerNETd_v140.dll</HintPath>
+    <Reference Include="SpinnakerNETd_v140, Version=3.1.0.79, Culture=neutral, PublicKeyToken=e3ed2bf1f221d241, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files\FLIR Systems\Spinnaker\bin64\vs2015\SpinnakerNETd_v140.dll</HintPath>
+    </Reference>
+    <Reference Include="SpinVideoNETd_v140">
+      <HintPath>..\..\..\..\..\..\Program Files\FLIR Systems\Spinnaker\bin64\vs2015\SpinVideoNETd_v140.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.AppContext, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
@@ -247,10 +252,12 @@
     </Compile>
     <Compile Include="Maths\modTypeConversions.vb" />
     <Compile Include="Maths\modImageProcessing.vb" />
+    <Compile Include="modMeasurementSetup.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
       <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <Compile Include="My Project\Resources.Designer.vb">
       <AutoGen>True</AutoGen>

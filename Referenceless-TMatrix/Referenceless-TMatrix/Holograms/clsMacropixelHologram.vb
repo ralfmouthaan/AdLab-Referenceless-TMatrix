@@ -12,7 +12,6 @@ Public Class clsMacropixelHologram
     Private _NoMacropixels As Integer
     Private _Holowidth_MPx As Integer
     Private _MacropixelWidth As Integer
-    Private _arrHadamard(,) As Integer
 
     Public Property arrMacroPixels As Double()
         Get

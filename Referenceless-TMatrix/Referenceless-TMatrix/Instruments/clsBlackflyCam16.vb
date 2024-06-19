@@ -4,10 +4,9 @@
 '
 ' Code to control Blacklfy camera
 
-Imports System.Drawing.Imaging
-Imports System.Runtime.InteropServices
 Imports SpinnakerNET
 Imports SpinnakerNET.GenApi
+Imports SpinnakerNET.Video
 
 Public Class clsBlackflyCam16
     Inherits clsCamera16
@@ -185,9 +184,10 @@ Public Class clsBlackflyCam16
         Dim rawImage As IManagedImage = Cam.GetNextImage(1000)
         Dim convertedImage As IManagedImage = ImgProcessor.Convert(rawImage, PixelFormatEnums.Mono16)
         convertedImage.Save(Filename)
+        rawImage.Dispose()
+        convertedImage.Dispose()
 
     End Sub
-
     Public Overrides Function GetIntegerImage(Optional NoFrames As Integer = -1) As UInt16(,)
 
         ExecuteTrigger()
@@ -223,6 +223,37 @@ Public Class clsBlackflyCam16
         Dim convertedImage As IManagedImage = ImgProcessor.Convert(rawImage, PixelFormatEnums.Mono16)
         Return convertedImage.bitmap
     End Function
+
+    Private video As IManagedSpinVideo
+    Public Sub CreateAVI(Filename As String)
+
+        Dim uncompressedOption As AviOption = New AviOption()
+        uncompressedOption.frameRate = 2 'Makes viewing nice
+        uncompressedOption.height = ImageHeight
+        uncompressedOption.width = ImageWidth
+
+        video = New ManagedSpinVideo
+        video.Open(Filename, uncompressedOption)
+
+    End Sub
+    Public Sub SaveImageToAVI()
+
+        ExecuteTrigger()
+        Dim rawImage As IManagedImage = Cam.GetNextImage(1000)
+        Dim convertedImage As IManagedImage = ImgProcessor.Convert(rawImage, PixelFormatEnums.Mono16)
+
+        video.Append(convertedImage)
+
+        rawImage.Dispose()
+        convertedImage.Dispose()
+
+    End Sub
+    Public Sub CloseAVI()
+
+        video.Close()
+        video.Dispose()
+
+    End Sub
 
     Private Sub ExecuteTrigger()
         If bolConnectionOpen = False Then Exit Sub
